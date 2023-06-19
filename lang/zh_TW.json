@@ -1,0 +1,10 @@
+{
+    " created successfully": "新增成功",
+    "Creates a new user": "新增一個新使用者",
+    "Email of the new user": "新使用者的電子郵件",
+    "Name of the new user": "新使用者的姓名",
+    "Password of the new user": "新使用者的密碼",
+    "Role not found": "找不到角色",
+    "Role of the new user": "新使用者的角色",
+    "User ": "使用者"
+}
