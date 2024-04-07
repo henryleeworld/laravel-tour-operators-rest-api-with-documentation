@@ -59,7 +59,7 @@ class CreateUserCommand extends Command
             $newUser = User::create([
                 'name' => $user['name'],
                 'email' => $user['email'],
-                'password' => bcrypt($user['password']),
+                'password' => $user['password'],
             ]);
             $newUser->roles()->attach($role->id);
         });
